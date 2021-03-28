@@ -1,0 +1,16 @@
+Java HotSpot(TM) 64-Bit Server VM (25.181-b13) for windows-amd64 JRE (1.8.0_181-b13), built on Jul  7 2018 04:01:33 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 33125424k(24410724k free), swap 38106160k(28178724k free)
+CommandLine flags: -XX:InitialHeapSize=1073741824 -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=357916672 -XX:MaxTenuringThreshold=6 -XX:NewSize=357916672 -XX:OldPLABSize=16 -XX:OldSize=715825152 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:-UseLargePagesIndividualAllocation -XX:+UseParNewGC 
+2021-03-28T21:22:46.588+0800: 0.408: [GC (Allocation Failure)  279616K->83701K(1013632K), 0.0190676 secs]
+2021-03-28T21:22:46.641+0800: 0.459: [GC (Allocation Failure)  363317K->168687K(1013632K), 0.0286476 secs]
+2021-03-28T21:22:46.702+0800: 0.520: [GC (Allocation Failure)  448303K->245230K(1013632K), 0.0397989 secs]
+2021-03-28T21:22:46.770+0800: 0.589: [GC (Allocation Failure)  524846K->328284K(1013632K), 0.0432013 secs]
+2021-03-28T21:22:46.840+0800: 0.660: [GC (Allocation Failure)  607900K->417998K(1013632K), 0.0458849 secs]
+2021-03-28T21:22:46.886+0800: 0.706: [GC (CMS Initial Mark)  423880K(1013632K), 0.0001411 secs]
+2021-03-28T21:22:46.915+0800: 0.735: [GC (Allocation Failure)  697614K->495303K(1013632K), 0.0394546 secs]
+2021-03-28T21:22:46.985+0800: 0.803: [GC (Allocation Failure)  774919K->574198K(1013632K), 0.0409330 secs]
+2021-03-28T21:22:47.055+0800: 0.874: [GC (Allocation Failure)  853814K->653816K(1013632K), 0.0413141 secs]
+2021-03-28T21:22:47.125+0800: 0.944: [Full GC (Allocation Failure)  933432K->341540K(1013632K), 0.0395476 secs]
+2021-03-28T21:22:47.198+0800: 1.017: [GC (Allocation Failure)  621156K->430756K(1013632K), 0.0114434 secs]
+2021-03-28T21:22:47.210+0800: 1.029: [GC (CMS Initial Mark)  431158K(1013632K), 0.0003216 secs]
+2021-03-28T21:22:47.245+0800: 1.064: [GC (Allocation Failure)  710241K->511530K(1013632K), 0.0155000 secs]

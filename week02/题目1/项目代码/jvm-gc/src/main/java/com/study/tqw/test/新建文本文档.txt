@@ -1,0 +1,1 @@
+java -Xloggc:test.log -XX:+PrintGCDetails -XX:PrintGCDateStamps com.study.tqw.GCLogAnalysis
