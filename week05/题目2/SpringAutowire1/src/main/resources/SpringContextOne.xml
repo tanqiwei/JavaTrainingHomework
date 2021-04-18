@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student123"
+          class="com.study.qw.beans.Student">
+        <property name="serialNo" value="123"/>
+        <property name="name" value="KK123"/>
+    </bean>
+
+    <bean id="student100"
+          class="com.study.qw.beans.Student">
+        <property name="serialNo" value="100"/>
+        <property name="name" value="KK100"/>
+    </bean>
+
+
+    <bean id="class1" class="com.study.qw.beans.Klass">
+        <constructor-arg >
+            <list>
+                <ref bean="student100"/>
+                <ref bean="student123"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="school" class="com.study.qw.beans.School">
+        <constructor-arg ref="class1" index="0"/>
+        <constructor-arg ref="student123" index="1"/>
+    </bean>
+
+
+</beans>
