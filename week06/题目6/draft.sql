@@ -1,18 +1,3 @@
-# 第六题
-
-由于工作方面太忙，时间十分来不及，所以类似于，打折优惠的以及优惠卷相关，购物车相关的，店家关注，用户已有的优惠卷，优惠规则活动等等，等有时间，想清楚了再设计。
-
-暂时是这么简单的表结构，似乎也有些庞大。
-
-
-
-![](draft.png)
-
-
-
-
-
-```sql
 create table brand
 (
     brand_id    varchar(20) not null,
@@ -85,7 +70,6 @@ create table commodity
 
 create index commodity_seller_Id_index
     on commodity (seller_id);
-
 
 create table user
 (
@@ -244,7 +228,4 @@ create table user_pay_for_record
 
 alter table user_pay_for_record
     add primary key (record_id);
-
-
-```
 
